@@ -1,0 +1,24 @@
+const array =[]
+function mintarra(name,eyecolor,shirttype,bling){
+    const Ar ={
+            "name":name,
+    "eyecolor":eyecolor,
+    "shirttype":shirttype,
+    "bling":bling
+}
+array.push(Ar);
+console.log("named:"+name);
+}
+function listNFts(){
+    for (let i =0;i<array.length;i++){
+        console.log(array[i]);}
+
+}
+function getTotalSupply(){
+    console.log(array.length);
+}
+mintarra('Suman',"red","shirt","Silver chain");
+listNFts();
+getTotalSupply();
+
+
